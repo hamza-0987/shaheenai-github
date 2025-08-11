@@ -1,4 +1,4 @@
-![ShaheenAI Logo](shheenai.png)
+![ShaheenAI Logo](https://github.com/hamza-0987/shaheenai-github/blob/main/shaheenai.png)
 
 # ShaheenAI
 
