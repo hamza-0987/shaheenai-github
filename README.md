@@ -1,4 +1,14 @@
 ![ShaheenAI Logo](https://github.com/hamza-0987/shaheenai-github/blob/main/shaheenai.png)
+
+<div align="center">
+<img src="https://github.com/hamza-0987/shaheenai-github/blob/main/shaheenai.png" alt="ShaheenAI Logo" width="300" />
+</div>
+
+<div align="center">
+<a href="https://pypi.org/project/shaheenai" target="_blank">
+<img src="https://img.shields.io/pypi/v/shaheenai" alt="PyPI version" />
+</a>
+</div>
 # ShaheenAI: The Flexible, Multi-LLM Agent-Oriented Library 🦅
 
 
