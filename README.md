@@ -2,8 +2,8 @@
 # ShaheenAI: The Flexible, Multi-LLM Agent-Oriented Library 🦅
 
 \<div align="center"\>
-\<img src="[https://github.com/hamza-0987/shaheenai-github/blob/main/shaheenai.png]" alt="ShaheenAI Logo" width="300" /\>
-\</div\>
+<img src="https://github.com/hamza-0987/shaheenai-github/blob/main/shaheenai.png" alt="ShaheenAI Logo" width="300" /\>
+</div\>
 
 ShaheenAI is a powerful and flexible Python library for building intelligent, agent-oriented applications. It provides a robust framework to easily create agents that can leverage multiple Large Language Models (LLMs), perform self-reflection, use external tools, and manage complex tasks like research planning.
 
