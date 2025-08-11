@@ -9,9 +9,9 @@
 <img src="https://img.shields.io/pypi/v/shaheenai" alt="PyPI version" />
 </a>
 </div>
-## ShaheenAI: The Flexible, Multi-LLM Agent-Oriented Library 🦅
 
 
+ShaheenAI: The Flexible, Multi-LLM Agent-Oriented Library 🦅
 
 ShaheenAI is a powerful and flexible Python library for building intelligent, agent-oriented applications. It provides a robust framework to easily create agents that can leverage multiple Large Language Models (LLMs), perform self-reflection, use external tools, and manage complex tasks like research planning.
 
