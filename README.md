@@ -1,64 +1,69 @@
-<div align="center">
-  <h1>🦅 ShaheenAI</h1>
-  <p><i>Multi-Agent AI Framework with Multi-LLM Support</i></p>
-</div>
+![ShaheenAI Logo](shheenai.png)
+
+# ShaheenAI
+
+ShaheenAI is a Python framework for creating multi-agent systems with multi-LLM support. It simplifies AI development by integrating popular LLMs and providing flexible APIs for building, orchestrating, and deploying intelligent agents.
 
 ---
 
-## 📖 Overview
-ShaheenAI is a powerful, flexible Python framework designed for creating advanced **multi-agent AI systems** with **multi-LLM support**. It allows developers to easily integrate models like **OpenAI, Groq, Gemini**, and more, while also supporting interactive UIs via **Streamlit** and **Chainlit**.
-
-With ShaheenAI, you can:
-- Build collaborative AI agents.
-- Orchestrate workflows across multiple LLMs.
-- Deploy interactive AI apps quickly.
+## 🚀 Features
+- **Multi-LLM Support** – OpenAI, Groq, Gemini, Claude, etc.
+- **Agent Orchestration** – Create, connect, and manage multiple AI agents.
+- **CLI Tool** – Quick setup and execution from the command line.
+- **Streaming Support** – Real-time response streaming.
+- **Customizable Pipelines** – Easily integrate your own logic.
+- **Built-in Tools** – Search, math, scraping, file handling, etc.
+- **Chainlit & Streamlit Support** – For fast prototyping and UI building.
 
 ---
 
-## 🚀 Installation
+## 📦 Installation
 ```bash
 pip install shaheenai
 ```
 
 ---
 
-## ⚡ Quick Start
+## 🛠️ Usage Example
 ```python
-from shaheenai import Agent, AgentSystem
+from shaheenai import Agent, Orchestrator
 
-# Create Agents
-agent1 = Agent(name="Researcher", model="gpt-4")
-agent2 = Agent(name="Summarizer", model="gemini-pro")
+agent1 = Agent(model="gpt-4", role="Researcher")
+agent2 = Agent(model="gemini-pro", role="Writer")
 
-# Create Multi-Agent System
-system = AgentSystem([agent1, agent2])
-
-# Run Task
-response = system.run("Find latest AI trends and summarize")
+orchestrator = Orchestrator([agent1, agent2])
+response = orchestrator.run("Write a blog post on AI trends in 2025")
 print(response)
 ```
 
 ---
 
-## 📂 Features
-- **Multi-LLM Support** – OpenAI, Groq, Gemini, and more.
-- **Multi-Agent Collaboration** – Define multiple agents with specific roles.
-- **UI Integration** – Supports Streamlit and Chainlit.
-- **Extensible Architecture** – Add custom models or agents.
-- **Workflow Orchestration** – Sequential and parallel task execution.
-
----
-
-## 🛠 Configuration
-You can set API keys as environment variables:
-```bash
-export OPENAI_API_KEY="your_openai_key"
-export GROQ_API_KEY="your_groq_key"
-export GEMINI_API_KEY="your_gemini_key"
+## 🗂️ Project Structure
+```
+shaheenai/
+│   __init__.py
+│   agents.py
+│   orchestrator.py
+│   tools/
+│   └── __init__.py
 ```
 
 ---
 
-## 📜 License
-MIT © 2025 Engr. Hamza
+## 🖥️ CLI Usage
+```bash
+shaheenai run --prompt "Explain quantum computing"
+```
 
+---
+
+## 🤝 Contributing
+1. Fork the repo
+2. Create a branch: `git checkout -b feature-name`
+3. Commit changes: `git commit -m 'Added new feature'`
+4. Push and submit PR
+
+---
+
+## 📜 License
+MIT License © 2025 Engr. Hamza
