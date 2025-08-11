@@ -1,4 +1,4 @@
-![ShaheenAI Logo](https://github.com/hamza-0987/shaheenai-github/blob/main/shaheenai.png)
+
 
 <div align="center">
 <img src="https://github.com/hamza-0987/shaheenai-github/blob/main/shaheenai.png" alt="ShaheenAI Logo" width="300" />
